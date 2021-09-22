@@ -1,0 +1,45 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+header {
+    font-size: 40px;
+    padding-top: 50px; 
+    width: 800px;
+    justify-content: space-between;
+    display: flex;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(25, 2, 128);
+}
+a:visited{
+    text-decoration: none;
+    color:rgb(3, 41, 87)
+}
+body{
+    background-color: rgb(179, 177, 173);
+}
+
+.main-area{
+    width: 35%;
+    float: left;
+    height: 110px;
+    padding-right: 15px;
+    background-color:rgb(144, 146, 141) ;
+}
+.sidebar{
+    width: 35%;
+    float: right;
+    height: 55px;
+    padding-left: 5px;
+    background-color: rgb(161, 156, 156); 
+    }
+
+    footer{
+        background-color: white ;
+        margin-top: 72px;
+        padding: 10px; 
+        text-align: center; 
+        color: grey; 
+    }
